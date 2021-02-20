@@ -20,6 +20,8 @@ insert into tb_offer(edition,start_moment,end_moment,course_id)values('2.0',TIME
 
 insert into tb_notification(text,moment,read,route,user_id)values('Parabéns pelo estudo',TIMESTAMP WITH TIME ZONE '2021-07-13T20:50:07.12345Z',false,'',1);
 
-
+INSERT INTO TB_RESOURCE(TITLE,DESCRIPTION,POSITION,IMG_URI,TYPE,offer_id)VALUES('Trilha Html', 'Trilha principal do curso',1,'https://cdn.pixabay.com/photo/2018/03/22/10/55/training-course-3250007_1280.jpg',1,1);
+INSERT INTO TB_RESOURCE(TITLE,DESCRIPTION,POSITION,IMG_URI,TYPE,offer_id)VALUES('Forum', 'Tire suas duvidas',2,'https://cdn.pixabay.com/photo/2018/03/22/10/55/training-course-3250007_1280.jpg',2,1);
+INSERT INTO TB_RESOURCE(TITLE,DESCRIPTION,POSITION,IMG_URI,TYPE,offer_id)VALUES('Lives', 'Lives exclusvas',3,'https://cdn.pixabay.com/photo/2018/03/22/10/55/training-course-3250007_1280.jpg',0,1);
 
 
