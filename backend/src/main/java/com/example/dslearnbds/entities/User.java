@@ -90,8 +90,6 @@ public class User implements Serializable {
 		return roles;
 	}
 	
-	
-
 	public List<Notification> getNotifications() {
 		return notifications;
 	}
