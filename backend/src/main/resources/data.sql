@@ -24,4 +24,7 @@ INSERT INTO TB_RESOURCE(TITLE,DESCRIPTION,POSITION,IMG_URI,TYPE,offer_id)VALUES(
 INSERT INTO TB_RESOURCE(TITLE,DESCRIPTION,POSITION,IMG_URI,TYPE,offer_id)VALUES('Forum', 'Tire suas duvidas',2,'https://cdn.pixabay.com/photo/2018/03/22/10/55/training-course-3250007_1280.jpg',2,1);
 INSERT INTO TB_RESOURCE(TITLE,DESCRIPTION,POSITION,IMG_URI,TYPE,offer_id)VALUES('Lives', 'Lives exclusvas',3,'https://cdn.pixabay.com/photo/2018/03/22/10/55/training-course-3250007_1280.jpg',0,1);
 
+insert into tb_section(TITLE,DESCRIPTION,POSITION,IMG_URI,resource_id,prerequisite_id)values('Capitulo 1','Nesse capitulo vamos iniciar a trilha',1,'https://cdn.pixabay.com/photo/2018/03/22/10/55/training-course-3250007_1280.jpg',1,null);
+insert into tb_section(TITLE,DESCRIPTION,POSITION,IMG_URI,resource_id,prerequisite_id)values('Capitulo 2','Tags',2,'https://cdn.pixabay.com/photo/2018/03/22/10/55/training-course-3250007_1280.jpg',1,1);
+insert into tb_section(TITLE,DESCRIPTION,POSITION,IMG_URI,resource_id,prerequisite_id)values('Capitulo 3','Divs',3,'https://cdn.pixabay.com/photo/2018/03/22/10/55/training-course-3250007_1280.jpg',1,2);
 
